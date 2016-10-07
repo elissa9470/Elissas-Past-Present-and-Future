@@ -1,0 +1,70 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    background-color: #ff6666;
+     max-width: 700px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 7px;
+     border-style: dotted;
+     border-color: #3257f0;
+     border-width: 5px;
+
+}
+
+section{
+  clear: both;
+}
+
+h1 {
+     color: lightblue;
+     text-align: center;
+     font-family: 'Fascinate Inline', cursive;
+     font-size: 36px;
+}
+
+p {
+     font-size: 20px;
+     text-align: center;
+}
+
+img {
+     max-width: 100%;
+}
+
+img.left {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+img.right {
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* unvisited link */
+a:link {
+    color: yellow;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: aqua;
+}
+
+/* selected link */
+a:active {
+    color: pink;
+}
